@@ -1,0 +1,18 @@
+apply plugin: "asoft-environment"
+
+environments {
+    debug {
+        firebaseOptions = [
+                apiKey   : 1234,
+                messageId: "test-message"
+        ]
+    }
+
+    staging {
+
+    }
+
+    release {
+
+    }
+}
